@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Categories - Online Library</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar (similar to the one on the home page) -->
+    <!-- Include the same navbar code here as in index.html -->
+
+    <!-- Book Categories Section -->
+    <section class="container mt-5">
+        <h2>Book Categories</h2>
+
+        <!-- Display a list of available book categories -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select Category
+            </button>
+            <div class="dropdown-menu">
+                <!-- Fetch and dynamically populate categories from books.json using JavaScript -->
+                <script src="cetagories.js"></script>
+            </div>
+        </div>
+
+        <!-- Filter options or search functionality (customize based on your needs) -->
+        <div class="mt-3">
+            <label for="searchInput">Search:</label>
+            <input type="text" id="searchInput" class="form-control" placeholder="Enter book title or author">
+        </div>
+
+        <!-- Display book information based on the selected category -->
+        <div id="bookList" class="mt-3">
+            <!-- Book details will be dynamically populated here using JavaScript -->
+        </div>
+
+        <!-- Navigation options -->
+        <div class="mt-3">
+            <a href="index.html" class="btn btn-primary">Return to Home</a>
+            <a href="cart.html" class="btn btn-success">Go to Cart</a>
+            <a href="contact.html" class="btn btn-info">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Your HTML content goes here -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <script src="categories.js"></script> <!-- Include the script for populating categories -->
+</body>
+</html>

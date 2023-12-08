@@ -1,0 +1,72 @@
+// styles/styles.scss
+
+// Import Bootstrap styles
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+// Custom styles for the contact page
+
+body {
+    padding-top: 56px; /* Adjust based on your navbar height */
+}
+
+.container {
+    max-width: 800px;
+}
+
+/* Contact Information Section */
+section {
+    margin-bottom: 30px;
+
+    h2 {
+        color: #007bff; /* Bootstrap primary color */
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+}
+
+/* Social Media Links Section */
+img {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+/* Contact Form Section */
+form {
+    width: 100%;
+
+    .form-group {
+        margin-bottom: 20px;
+
+        label {
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #007bff; /* Bootstrap primary color */
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    }
+}

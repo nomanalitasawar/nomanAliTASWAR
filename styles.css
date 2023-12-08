@@ -1,0 +1,58 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+body {
+  padding-top: 56px; /* Adjust based on your navbar height */
+}
+
+.container {
+  max-width: 800px;
+}
+
+/* Contact Information Section */
+section {
+  margin-bottom: 30px;
+}
+section h2 {
+  color: #007bff; /* Bootstrap primary color */
+}
+section p {
+  margin-bottom: 10px;
+}
+
+/* Social Media Links Section */
+img {
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+/* Contact Form Section */
+form {
+  width: 100%;
+}
+form .form-group {
+  margin-bottom: 20px;
+}
+form .form-group label {
+  font-weight: bold;
+}
+form .form-group input,
+form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form .form-group textarea {
+  resize: vertical;
+}
+form button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+form button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}/*# sourceMappingURL=styles.css.map */
